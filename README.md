@@ -31,7 +31,7 @@ All graphs files are provided in the edgelist format and can be opened in networ
 
 Here's a simple example of how to use BusFactorX:
 
-Let B be a biadjacency scipy sparse row matrix representing a bipartite graph of people to tasks, the bus-factor of B can be computed with:
+Let B be a biadjacency scipy sparse row matrix representing a bipartite graph of people and tasks, the bus-factor of B can be computed with:
 
 ```python
 from busfactorx import Project
