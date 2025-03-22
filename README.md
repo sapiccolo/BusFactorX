@@ -25,7 +25,7 @@ In order to offer efficient implementations of the aforementioned methods, BusFa
 
 Finally, the package contains 1700 synthetic power-law graphs, with 7500 people and 10000 tasks, sampled at increasing levels of assortativity (degree correlation), a network measure correlated with network robustness. The graphs have been sampled, with an MCMC, from the statistical ensemble $\{G\}$ with probability measure $\mu(G) \propto e^{-H(G)}$, induced by the Hamiltonian $H(G) = −J \sum_{(i,j) \in E} k_i k_j$, where $J$ is a constant which regulates the level of degree correlation in the sampled graphs and $k_i$ indicates the degree of node $i$. The sampling procedure expores 17 equally spaced values of $J$ in the range $[-0.002, 0.002]$, corresponding to a degree correlation in between -0.6 and 0.6. For each value of $J$, 100 independent graphs have been sampled.
 
-All graphs files are provided in the edgelist format and can be opened in networkx. Each file is named following the pattern "Net\_\$SAMPLENUM\$\_J\_$VAL$.edgelist", where $\$$SAMPLENUM\\$ is the sample number and \$VAL\$ is the value of $J$. For example, "Net\_61\_J\_0.002.edgelist" refers to the 61st network sampled with $J = 0.002$.
+All graphs files are provided in the edgelist format and can be opened in networkx. Each file is named following the pattern "Net\_\$SAMPLENUM\$\_J\_$VAL$.edgelist", where `$`SAMPLENUM`$` is the sample number and `$`VAL`$` is the value of $J$. For example, "Net\_61\_J\_0.002.edgelist" refers to the 61st network sampled with $J = 0.002$.
 
 ## Usage
 
