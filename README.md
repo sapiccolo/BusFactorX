@@ -79,7 +79,7 @@ series = {LNCS}
 author = {Piccolo, Sebastiano A. and De Meo, Pasquale and Terracina, Giorgio and Greco, Gianluigi},
 title = {The Theory and Practice of Computing the Bus-Factor},
 year = {2025},
-publisher = {Available at SSRN: https://ssrn.com/abstract=5195361}
+journal = {Available at SSRN: https://ssrn.com/abstract=5195361}
 }
 ```
 
