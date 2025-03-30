@@ -11,7 +11,7 @@ All algorithms have been implemented through just-in-time compilation with numba
 
 ## Features
 
-Currently, BusFactorX offers the class *Project* that offers basic functionalieite to handle a bipartite graph of people and tasks and offers the following bus-factor approximation algorithms.
+Currently, BusFactorX offers the class *Project* that offers basic functionalities to handle a bipartite graph of people and tasks and offers the following bus-factor approximation algorithms.
 
 - **Maximum Redundant Set**: which defines the bus-factor in terms of *structurally redundant* people; that is, the people that can be safely removed from a project without harming it. This definition is due to Zazworka et al. (2010) and encodes their optimistic definition of bus-factor. In this context, a project is considered safe if at least $t\%$ of tasks are covered by at least one person, where $t$ is an input threshold.
 
@@ -71,6 +71,15 @@ publisher = {Springer},
 booktitle = {16th International Conference, ASONAM 2024, Rende, Italy, September 2–5, 2024, Proceedings, Part I},
 location = {Rende, Italy},
 series = {LNCS}
+}
+```
+
+```
+@article{piccolo2025theorypractice,
+author = {Piccolo, Sebastiano A. and De Meo, Pasquale and Terracina, Giorgio and Greco, Gianluigi},
+title = {The Theory and Practice of Computing the Bus-Factor},
+year = {2025},
+publisher = {Available at SSRN: https://ssrn.com/abstract=5195361}
 }
 ```
 
